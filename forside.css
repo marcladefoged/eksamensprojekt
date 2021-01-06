@@ -9,7 +9,7 @@ img {
 }
 
 header {
-    background-color: #252734;
+    background-color: #333646;
     height: 10vw;
     margin-left: -8px;
     margin-top: -20px;
@@ -17,7 +17,7 @@ header {
 }
 
 #first_section {
-    background-color: #333646;
+    background-color: #252734;
     background-size: cover;
     position: relative;
     z-index: 1;
@@ -32,7 +32,6 @@ header {
 }
 
 .navbar {
-    background-color: #cb6c58;
     position: absolute;
 }
 
