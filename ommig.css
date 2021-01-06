@@ -1,0 +1,57 @@
+img {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    background-color: #252734;
+    height: 10vw;
+    margin-left: -8px;
+    margin-top: -20px;
+    width: 102%;
+}
+
+#first_section {
+    background-color: #333646;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    margin-left: -8px;
+    margin-top: -20px;
+}
+
+.section_wrapper {
+    position: absolute;
+}
+
+.navbar {
+    background-color: #cb6c58;
+    position: absolute;
+}
+
+nav {
+    position: absolute;
+    z-index: 2;
+    margin-top: 5vw;
+    margin-left: 60vw;
+
+}
+
+nav a {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:hover {
+    color: #ffc25c;
+    transition: 0.5s;
+}
+
+footer {
+    background-color: #252734;
+}

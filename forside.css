@@ -1,3 +1,8 @@
+body {
+    width: 100%;
+    height: auto;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -54,16 +59,23 @@ nav a:hover {
 
 #col1 h1 {
     color: #eaeaeb;
-    font-size: 3rem;
-    margin-top: 36vw;
-    margin-left: 3vw;
+    font-size: 4rem;
+    margin-top: 35vw;
+    margin-left: 8vw;
 }
 
 #col1 h2 {
     color: #eaeaeb;
-    font-size: 2rem;
-    margin-top: -2vw;
-    margin-left: 3vw;
+    font-size: 5rem;
+    margin-top: -3vw;
+    margin-left: 8vw;
+}
+
+#col2 h2 {
+    color: #eaeaeb;
+    font-size: 1.5rem;
+    margin-top: -38vw;
+    margin-left: 66vw;
 }
 
 footer {
