@@ -13,7 +13,7 @@ header {
     background-color: #333646;
     height: 10vw;
     margin-left: -8px;
-    margin-top: -20px;
+    margin-top: -60px;
     width: 102%;
 }
 
@@ -76,16 +76,16 @@ nav a:hover {
 #col1 h1 {
     color: #eaeaeb;
     font-family: 'Black Ops One', cursive;
-    font-size: 4rem;
-    margin-top: 35vw;
+    font-size: 6rem;
+    margin-top: 26vw;
     margin-left: 8vw;
 }
 
 #col1 h2 {
     color: #ffc25c;
     font-family: 'Black Ops One', cursive;
-    font-size: 5rem;
-    margin-top: -3vw;
+    font-size: 6rem;
+    margin-top: -8vw;
     margin-left: 8vw;
 }
 
