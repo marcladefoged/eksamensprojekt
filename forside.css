@@ -50,7 +50,7 @@ nav a:hover {
     position: relative;
     z-index: 1;
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     margin-left: -8px;
     margin-top: -20px;
 }
@@ -91,13 +91,48 @@ nav a:hover {
 
 #col2 h3 {
     color: #ffc25c;
-    margin-top: 13vw;
+    margin-top: 8vw;
     margin-left: 17vw;
 }
 
 #col2 p {
     color: #eaeaeb;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 500px;
+    margin-top: 2vw;
+    margin-left: 5vw;
 }
+
+#readmore p {
+    color: #ffc25c;
+    text-decoration: none;
+}
+
+/*SOCIALE MEDIER*/
+
+#facebook {
+    width: 50px;
+    height: 50px;
+    margin-top: 10vw;
+    margin-left: 10vw;
+}
+
+#instagram {
+    width: 50px;
+    height: 50px;
+    margin-top: -3.2vw;
+    margin-left: 20vw;
+}
+
+#linkedin {
+    width: 50px;
+    height: 50px;
+    margin-top: -3.2vw;
+    margin-left: 30vw;
+}
+
+
 
 /*FOOTER*/
 
