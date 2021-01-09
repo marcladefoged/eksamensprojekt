@@ -1,3 +1,7 @@
+body {
+    background-color: #252734;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -6,7 +10,7 @@ img {
 header {
     background-color: #333646;
     display: flex;
-    height: 10vw;
+    height: 133.5px;
     margin-left: -8px;
     margin-top: -8px;
     width: 102%;
@@ -66,6 +70,14 @@ nav a:hover {
 
 .section_wrapper {
     position: absolute;
+}
+
+#first_section h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #cb6c58;
+    margin-top: 4vw;
+
 }
 
 footer {
