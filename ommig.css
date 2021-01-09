@@ -63,13 +63,58 @@ nav a:hover {
     position: relative;
     z-index: 1;
     width: 100vw;
-    height: 100vh;
+    height: 50vw;
     margin-left: -8px;
     margin-top: -20px;
 }
 
 .section_wrapper {
     position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*KOLONNER*/
+
+#col1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+#col2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin-left: 5vw;
+    margin-top: 2vw;
+}
+
+#col1 p {
+    color: #eaeaeb;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left: 10vw;
+    padding: 1vw;
+}
+
+#campnou {
+    width: 400px;
+    height: 400px;
+    margin-left: 10vw;
+    margin-top: -3vw;
+}
+
+#wembley {
+    width: 250px;
+    height: 250px;
+    margin-left: 5vw;
+    margin-top: -4vw;
+}
+
+#pub {
+    width: 200px;
+    height: 200px;
+    margin-left: 20vw;
+    margin-top: -4vw;
 }
 
 #first_section h2 {
@@ -77,7 +122,18 @@ nav a:hover {
     font-size: 1.5rem;
     color: #cb6c58;
     margin-top: 4vw;
+}
 
+#second_section h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #cb6c58;
+    margin-top: 4vw;
+}
+
+#second_section {
+    background-color: #333646;
+    height: 50vw;
 }
 
 footer {
