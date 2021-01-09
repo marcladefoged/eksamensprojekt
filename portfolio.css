@@ -27,7 +27,7 @@ header {
 }
 
 #logoefternavn p {
-    color: #ffc25c;
+    color: #03a980;
     font-family: 'Black Ops One', cursive;
     font-size: 1.5rem;
     margin-left: 5px;
@@ -55,13 +55,13 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffc25c;
+    color: #03a980;
     transition: 0.5s;
 }
 
 
 #first_section {
-    background-color: #333646;
+    background-color: #252734;
     background-size: cover;
     position: relative;
     z-index: 1;

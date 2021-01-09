@@ -8,6 +8,12 @@ img {
     height: auto;
 }
 
+#profil {
+    width: 400px;
+    height: 400px;
+    margin-left: 23.5vw;
+}
+
 /*HEADER*/
 header {
     background-color: #333646;
@@ -67,7 +73,7 @@ nav a:hover {
     position: relative;
     z-index: 1;
     width: 100vw;
-    height: 120vh;
+    height: 45vw;
     margin-left: -8px;
     margin-top: -20px;
 }
@@ -87,6 +93,7 @@ nav a:hover {
 #col2 {
     grid-column-start: 2;
     grid-column-end: 2;
+    margin-left: 8vw;
 }
 
 
@@ -131,7 +138,7 @@ nav a:hover {
 #facebook {
     width: 50px;
     height: 50px;
-    margin-top: 10vw;
+    margin-top: 5vw;
     margin-left: 10vw;
 }
 
