@@ -90,7 +90,6 @@ nav a:hover {
 
 #col1 p {
     color: #eaeaeb;
-    text-align: center;
     font-size: 1.2rem;
     margin-left: 10vw;
     padding: 1vw;
@@ -117,6 +116,19 @@ nav a:hover {
     margin-top: -4vw;
 }
 
+#business1 {
+    width: 400px;
+    height: 400px;
+    margin-left: 5vw;
+    margin-top: 2vw;
+}
+
+#business2 {
+    width: 250px;
+    height: 250px;
+    margin-left: 20vw;
+}
+
 #first_section h2 {
     text-align: center;
     font-size: 1.5rem;
@@ -128,12 +140,25 @@ nav a:hover {
     text-align: center;
     font-size: 1.5rem;
     color: #cb6c58;
-    margin-top: 4vw;
+    margin-top: 5vw;
 }
 
 #second_section {
     background-color: #333646;
+    margin-top: 5vw;
     height: 50vw;
+}
+
+#col2 p {
+    color: #eaeaeb;
+    font-size: 1.1rem;
+    padding: 5px;
+}
+
+#col2 h3 {
+    color: #cb6c58;
+    font-family: 'Black Ops One', cursive;
+    font-size: 1.2rem;
 }
 
 footer {
