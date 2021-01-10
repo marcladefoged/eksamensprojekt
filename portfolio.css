@@ -75,6 +75,36 @@ nav a:hover {
     position: absolute;
 }
 
-footer {
+#second_section {
+    background-color: #333646;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    margin-left: -8px;
+    margin-top: -20px;
+}
+
+#third_section {
     background-color: #252734;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    margin-left: -8px;
+    margin-top: -20px;
+}
+
+
+fourth_section {
+    background-color: #333646;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    margin-left: -8px;
+    margin-top: -20px;
 }
