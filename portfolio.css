@@ -15,7 +15,7 @@ header {
     height: 10vw;
     margin-left: -8px;
     margin-top: -8px;
-    width: 102%;
+    width: 100vw;
 }
 
 #logofornavn p {
@@ -73,6 +73,22 @@ nav a:hover {
 
 .section_wrapper {
     position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*KOLONNER*/
+
+#col1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+#col2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin-left: 5vw;
+    margin-top: 2vw;
 }
 
 #second_section {
@@ -98,7 +114,7 @@ nav a:hover {
 }
 
 
-fourth_section {
+#fourth_section {
     background-color: #333646;
     background-size: cover;
     position: relative;
@@ -107,4 +123,88 @@ fourth_section {
     height: 100vh;
     margin-left: -8px;
     margin-top: -20px;
+}
+
+/*SEKTIONSOVERSKRIFTER*/
+
+#first_section h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #03a980;
+}
+
+#second_section h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #cb6c58;
+}
+
+#third_section h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #ffc25c;
+}
+
+#fourth_section h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #03a980;
+}
+
+/*BILLEDER*/
+
+#web1 {
+    width: 400px;
+    height: 400px;
+    margin-left: 10vw;
+    margin-top: -3vw;
+}
+
+#web2 {
+    width: 300px;
+    height: 300px;
+    margin-left: 25vw;
+    margin-top: -1vw;
+}
+
+#ux1 {
+    width: 400px;
+    height: 400px;
+    margin-left: 14vw;
+    margin-top: -3vw;
+}
+
+#ux2 {
+    width: 300px;
+    height: 300px;
+    margin-left: 4vw;
+    margin-top: -1vw;
+}
+
+#animation1 {
+    width: 400px;
+    height: 400px;
+    margin-left: 10vw;
+    margin-top: -3vw;
+}
+
+#animation2 {
+    width: 300px;
+    height: 300px;
+    margin-left: 25vw;
+    margin-top: -1vw;
+}
+
+#indhold1 {
+    width: 400px;
+    height: 400px;
+    margin-left: 14vw;
+    margin-top: -3vw;
+}
+
+#indhold2 {
+    width: 300px;
+    height: 300px;
+    margin-left: 4vw;
+    margin-top: -1vw;
 }
