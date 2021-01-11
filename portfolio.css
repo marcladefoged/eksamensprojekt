@@ -84,21 +84,34 @@ nav a:hover {
 
 .readmoretema3 a {
     color: #03a980;
+    margin-left: 10vw;
     text-decoration: none;
 }
 
 /*KOLONNER*/
 
-#col1 {
+.col1 {
     grid-column-start: 1;
     grid-column-end: 1;
 }
 
-#col2 {
+.col2 {
     grid-column-start: 2;
     grid-column-end: 2;
     margin-left: 5vw;
     margin-top: 2vw;
+}
+
+.col1 p {
+    color: #eaeaeb;
+    font-size: 1.1rem;
+    margin-left: 10vw;
+}
+
+.col2 p {
+    color: #eaeaeb;
+    font-size: 1.1rem;
+    margin-right: 10vw;
 }
 
 #second_section {

@@ -74,7 +74,7 @@ nav a:hover {
     grid-template-columns: 1fr 1fr;
 }
 
-#col1 h3 {
+.col1 h3 {
     color: #cb6c58;
     margin-top: 4vw;
     margin-left: 17vw;
@@ -87,19 +87,19 @@ nav a:hover {
 
 /*KOLONNER*/
 
-#col1 {
+.col1 {
     grid-column-start: 1;
     grid-column-end: 1;
 }
 
-#col2 {
+.col2 {
     grid-column-start: 2;
     grid-column-end: 2;
     margin-left: 5vw;
     margin-top: 2vw;
 }
 
-#col1 p {
+.col1 p {
     color: #eaeaeb;
     font-size: 1.2rem;
     margin-left: 10vw;
@@ -160,13 +160,13 @@ nav a:hover {
     width: 100vw;
 }
 
-#col2 p {
+.col2 p {
     color: #eaeaeb;
     font-size: 1.1rem;
     padding: 5px;
 }
 
-#col2 h3 {
+.col2 h3 {
     color: #cb6c58;
     font-family: 'Black Ops One', cursive;
     font-size: 1.2rem;
