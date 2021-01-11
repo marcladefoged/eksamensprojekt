@@ -128,7 +128,7 @@ nav a:hover {
     margin-left: 5vw;
 }
 
-#readmore p {
+#readmore a {
     color: #ffc25c;
     text-decoration: none;
 }

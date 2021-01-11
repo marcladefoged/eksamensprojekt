@@ -74,6 +74,17 @@ nav a:hover {
     grid-template-columns: 1fr 1fr;
 }
 
+#col1 h3 {
+    color: #cb6c58;
+    margin-top: 4vw;
+    margin-left: 17vw;
+}
+
+.readmore a {
+    color: #cb6c58;
+    text-decoration: none;
+}
+
 /*KOLONNER*/
 
 #col1 {
@@ -131,14 +142,13 @@ nav a:hover {
 
 #first_section h2 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #cb6c58;
-    margin-top: 4vw;
 }
 
 #second_section h2 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #cb6c58;
     margin-top: 5vw;
 }

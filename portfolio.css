@@ -77,6 +77,16 @@ nav a:hover {
     grid-template-columns: 1fr 1fr;
 }
 
+.readmoretema2 a {
+    color: #ffc25c;
+    text-decoration: none;
+}
+
+.readmoretema3 a {
+    color: #03a980;
+    text-decoration: none;
+}
+
 /*KOLONNER*/
 
 #col1 {
