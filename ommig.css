@@ -179,3 +179,104 @@ nav a:hover {
     color: #ffc25c;
     font-size: 1.2rem;
 }
+
+@media (max-width: 500px) {
+
+    /*HEADER*/
+
+    header {
+        height: 20vw;
+        margin-left: -8px;
+        margin-top: -8px;
+        width: 100vw;
+    }
+
+    #logofornavn p {
+        font-size: 1.1rem;
+        margin-left: 3vw;
+        margin-top: 5vw;
+    }
+
+    #logoefternavn p {
+        font-size: 1.1rem;
+        margin-left: 5px;
+        margin-top: 5vw;
+    }
+
+    nav {
+        display: inline-flex;
+        margin-left: -20vw;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+        font-weight: 900;
+        text-decoration: none;
+        padding: 20px;
+    }
+
+    /*FIRST SECTION*/
+
+    #first_section {
+        z-index: 1;
+        width: 100vw;
+        height: 206vw;
+        margin-left: -8px;
+        margin-top: -20px;
+    }
+
+    .section_wrapper {
+        display: block;
+    }
+
+    .col1 p {
+        font-size: 0.8rem;
+        margin-left: 5vw;
+        padding: 1vw;
+    }
+
+    /*FIRST SECTION BILLEDER*/
+
+    #campnou {
+        width: 400px;
+        height: 400px;
+        margin-left: 10vw;
+        margin-top: -3vw;
+    }
+
+    #wembley {
+        width: 250px;
+        height: 250px;
+        margin-left: 5vw;
+        margin-top: -8vw;
+    }
+
+    #pub {
+        width: 200px;
+        height: 200px;
+        margin-left: 30vw;
+        margin-top: -4vw;
+    }
+
+    #business1 {
+        width: 400px;
+        height: 400px;
+        margin-left: 7vw;
+        margin-top: 2vw;
+    }
+
+    #business2 {
+        width: 250px;
+        height: 250px;
+        margin-left: 22vw;
+    }
+
+    #second_section {
+
+        margin-top: 43vw;
+        height: 300vw;
+        width: 100vw;
+        margin-left: -2vw;
+    }
+
+}
