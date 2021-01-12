@@ -252,3 +252,83 @@ nav a:hover {
     margin-left: 4vw;
     margin-top: -1vw;
 }
+
+@media (max-width: 500px) {
+
+    /*HEADER*/
+
+    header {
+        height: 20vw;
+        margin-left: -8px;
+        margin-top: -8px;
+        width: 100vw;
+    }
+
+    #logofornavn p {
+        font-size: 1.1rem;
+        margin-left: 3vw;
+        margin-top: 5vw;
+    }
+
+    #logoefternavn p {
+        font-size: 1.1rem;
+        margin-left: 5px;
+        margin-top: 5vw;
+    }
+
+    nav {
+        display: inline-flex;
+        margin-left: -20vw;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+        font-weight: 900;
+        text-decoration: none;
+        padding: 20px;
+    }
+
+    .section_wrapper {
+        display: block;
+    }
+
+    #first_section,
+    #second_section,
+    #third_section,
+    #fourth_section {
+        height: 300vw;
+    }
+
+    .col1 p {
+        margin-left: 4vw;
+        ;
+    }
+
+    .readmoretema3 a {
+        font-family: 'Noto Sans JP', sans-serif;
+        color: #03a980;
+        margin-left: 5vw;
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+
+    #animation1 {
+        margin-left: 10vw;
+        margin-top: 10vw;
+    }
+
+    #indhold1 {
+        margin-left: 14vw;
+        margin-top: 10vw;
+    }
+
+    #ux1 {
+        margin-left: 14vw;
+        margin-top: 10vw;
+    }
+
+    #web1 {
+        margin-left: 10vw;
+        margin-top: 10vw;
+    }
+}
