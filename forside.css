@@ -62,6 +62,7 @@ nav a {
     font-weight: 900;
     text-decoration: none;
     padding: 50px;
+
 }
 
 nav a:hover {
@@ -146,4 +147,124 @@ nav a:hover {
     height: 50px;
     margin-top: -3.2vw;
     margin-left: 30vw;
+}
+
+/*MOBIL RESPONSIV: BREAK POINT 500px*/
+
+@media (max-width: 500px) {
+
+    /*HEADER*/
+
+    header {
+        height: 20vw;
+        margin-left: -8px;
+        margin-top: -8px;
+        width: 100vw;
+    }
+
+    #logofornavn p {
+        font-size: 1.1rem;
+        margin-left: 3vw;
+        margin-top: 5vw;
+    }
+
+    #logoefternavn p {
+        font-size: 1.1rem;
+        margin-left: 5px;
+        margin-top: 5vw;
+    }
+
+    nav {
+        display: inline-flex;
+        margin-left: -20vw;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+        font-weight: 900;
+        text-decoration: none;
+        padding: 20px;
+    }
+
+    /*BURGERMENU*/
+
+    /*    .menu-btn {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 80px;
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+        border: 3px solid #fff;
+    }
+
+    .menu-btn_burger {
+        width: 50px;
+        height: 6px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+        transition: all .5s ease-in-out;
+
+    }*/
+
+    #first_section {
+        z-index: 1;
+        width: 100vw;
+        height: 200vw;
+        margin-left: -8px;
+        margin-top: -20px;
+    }
+
+    .col1 h1 {
+        font-size: 4rem;
+        margin-top: 75vw;
+        margin-left: 8vw;
+    }
+
+    .col1 h2 {
+        font-size: 4rem;
+        margin-top: -8vw;
+        margin-left: 8vw;
+    }
+
+    .col2 h2 {
+        font-size: 3rem;
+        margin-top: 125vw;
+        margin-left: -90vw;
+    }
+
+    #profil {
+        width: 300px;
+        height: 300px;
+        margin-left: 30vw;
+        margin-top: 10vw;
+        z-index: 5;
+    }
+
+    /*SOCIALE MEDIER*/
+
+    #facebook {
+        width: 50px;
+        height: 50px;
+        margin-top: 65vw;
+        margin-left: 25vw;
+    }
+
+    #instagram {
+        width: 50px;
+        height: 50px;
+        margin-top: -10vw;
+        margin-left: 50vw;
+    }
+
+    #linkedin {
+        width: 50px;
+        height: 50px;
+        margin-top: -10vw;
+        margin-left: 75vw;
+    }
+
 }
