@@ -69,6 +69,7 @@ header {
     color: #ffc25c;
     transition: 0.5s;
 }
+
 /*FORSIDE*/
 
 #first_section {
@@ -281,6 +282,7 @@ header {
     .nav li a:hover {
         font-weight: bold;
         color: #ffc25c;
+        transition: 0.5s;
     }
 
     .nav li {

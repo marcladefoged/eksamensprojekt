@@ -318,6 +318,7 @@ header {
     .nav li a:hover {
         font-weight: bold;
         color: #cb6c58;
+        transition: 0.5s;
     }
 
     .nav li {
@@ -351,8 +352,5 @@ header {
     .change {
         display: block;
     }
-
-}
-
 
 }
