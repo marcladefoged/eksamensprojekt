@@ -51,8 +51,6 @@ header {
     display: flex;
     margin-left: 37.4vw;
 
-
-
 }
 
 .nav li a {
@@ -71,7 +69,6 @@ header {
     color: #ffc25c;
     transition: 0.5s;
 }
-
 /*FORSIDE*/
 
 #first_section {
