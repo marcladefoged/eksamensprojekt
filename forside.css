@@ -57,6 +57,7 @@ nav {
 
 nav a {
     color: white;
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 1.5rem;
     font-weight: 900;
     text-decoration: none;
@@ -119,7 +120,7 @@ nav a:hover {
 .col2 h2 {
     color: #03a980;
     font-size: 5rem;
-    font-family: 'Black Ops One', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
     margin-top: 28vw;
     margin-left: -40vw;
 }
@@ -129,14 +130,14 @@ nav a:hover {
 #facebook {
     width: 50px;
     height: 50px;
-    margin-top: 5vw;
+    margin-top: -2vw;
     margin-left: 10vw;
 }
 
 #instagram {
     width: 50px;
     height: 50px;
-    margin-top: -3.2vw;
+    margin-top: -3.3vw;
     margin-left: 20vw;
 }
 
@@ -145,12 +146,4 @@ nav a:hover {
     height: 50px;
     margin-top: -3.2vw;
     margin-left: 30vw;
-}
-
-
-
-/*FOOTER*/
-
-footer {
-    background-color: #252734;
 }

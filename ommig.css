@@ -45,6 +45,7 @@ nav {
 }
 
 nav a {
+    font-family: 'Noto Sans JP', sans-serif;
     color: white;
     font-size: 1.5rem;
     font-weight: 900;
@@ -75,14 +76,17 @@ nav a:hover {
 }
 
 .col1 h3 {
+    font-family: 'Noto Sans JP', sans-serif;
     color: #cb6c58;
     margin-top: 4vw;
-    margin-left: 17vw;
+    margin-left: 11vw;
 }
 
 .readmore a {
+    font-family: 'Noto Sans JP', sans-serif;
     color: #cb6c58;
     text-decoration: none;
+    font-size: 1.2rem;
 }
 
 /*KOLONNER*/
@@ -100,6 +104,7 @@ nav a:hover {
 }
 
 .col1 p {
+    font-family: 'Noto Sans JP', sans-serif;
     color: #eaeaeb;
     font-size: 1.2rem;
     margin-left: 10vw;
@@ -141,15 +146,17 @@ nav a:hover {
 }
 
 #first_section h2 {
+    font-family: 'Noto Sans JP', sans-serif;
     text-align: center;
     font-size: 2rem;
     color: #cb6c58;
 }
 
 #second_section h2 {
+    font-family: 'Noto Sans JP', sans-serif;
     text-align: center;
     font-size: 2rem;
-    color: #cb6c58;
+    color: #ffc25c;
     margin-top: 5vw;
 }
 
@@ -161,17 +168,13 @@ nav a:hover {
 }
 
 .col2 p {
+    font-family: 'Noto Sans JP', sans-serif;
     color: #eaeaeb;
-    font-size: 1.1rem;
     padding: 5px;
 }
 
 .col2 h3 {
-    color: #cb6c58;
-    font-family: 'Black Ops One', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #ffc25c;
     font-size: 1.2rem;
-}
-
-footer {
-    background-color: #252734;
 }

@@ -47,6 +47,7 @@ nav {
 }
 
 nav a {
+    font-family: 'Noto Sans JP', sans-serif;
     color: white;
     font-size: 1.5rem;
     font-weight: 900;
@@ -68,7 +69,7 @@ nav a:hover {
     width: 100vw;
     height: 100vh;
     margin-left: -8px;
-    margin-top: -20px;
+    margin-top: -40px;
 }
 
 .section_wrapper {
@@ -77,15 +78,27 @@ nav a:hover {
     grid-template-columns: 1fr 1fr;
 }
 
+.readmoretema1 a {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #03a980;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+
 .readmoretema2 a {
+    font-family: 'Noto Sans JP', sans-serif;
     color: #ffc25c;
     text-decoration: none;
+    font-size: 1.2rem;
 }
 
 .readmoretema3 a {
+    font-family: 'Noto Sans JP', sans-serif;
     color: #03a980;
     margin-left: 10vw;
     text-decoration: none;
+    font-size: 1.2rem;
 }
 
 /*KOLONNER*/
@@ -103,15 +116,19 @@ nav a:hover {
 }
 
 .col1 p {
+    font-family: 'Noto Sans JP', sans-serif;
     color: #eaeaeb;
+    padding: 5px;
+    line-height: 125%;
     font-size: 1.1rem;
     margin-left: 10vw;
 }
 
 .col2 p {
+    font-family: 'Noto Sans JP', sans-serif;
     color: #eaeaeb;
-    font-size: 1.1rem;
     margin-right: 10vw;
+
 }
 
 #second_section {
@@ -151,24 +168,28 @@ nav a:hover {
 /*SEKTIONSOVERSKRIFTER*/
 
 #first_section h2 {
+    font-family: 'Bodoni Moda', serif;
     text-align: center;
     font-size: 1.5rem;
     color: #03a980;
 }
 
 #second_section h2 {
+    font-family: 'Bodoni Moda', serif;
     text-align: center;
     font-size: 1.5rem;
     color: #cb6c58;
 }
 
 #third_section h2 {
+    font-family: 'Bodoni Moda', serif;
     text-align: center;
     font-size: 1.5rem;
     color: #ffc25c;
 }
 
 #fourth_section h2 {
+    font-family: 'Bodoni Moda', serif;
     text-align: center;
     font-size: 1.5rem;
     color: #03a980;
